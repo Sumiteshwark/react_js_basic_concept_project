@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.img{
+  width:auto;
+  height:300px;
+}
+
+h1{
+  margin: 0;
+}
+
+.header{
+  background-color: aqua;
+  padding: 8px;
+}
+
+.main-movies{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 14px;
+}
+
+.movie{
+  background-color: rgb(219,212,212);
+  border: 1px solid gray;
+  padding: 3px;
+  font-weight: bold;
+  text-align: start;
+  width: 22%;
+  margin-bottom: 20px;
+}
+
+.movie img{
+  height: 220px;
+  width: 100%;
+}
+
+.main-hook{
+  background-color: aqua;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.hook-head{
+  padding-bottom: 30px;
+}
+
+.hook-btn{
+  background-color: aquamarine;
+  padding: 15px 25px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  border: 1px solid red;
+
+}
+
+.hook-btn:hover{
+  background-color: rgb(7, 202, 246);
+}
+
+.cform{
+  display: flex;
+  justify-content: center;
+  margin: 50px 10px;
+}
+
+#siz{
+  width: 300px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid rgb(7, 202, 246);
+  padding-left: 10px;
+}
+
+.but{
+  height: 35px;
+  width: 60px;
+  background-color: antiquewhite;
+  border-radius: 4px;
+  border: 1px solid rgb(7, 202, 246);
+}
+
+.form{
+  margin-bottom: 25px;
+}
+
+.form-data{
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-data-val{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 4px 0px 7px;
+  width: 60%;
+  height: 50px;
+  align-items: center;
+  background-color: antiquewhite;
+  margin-bottom: 3px;
+  border-radius: 5px;
+}
+
+.del-btn{
+  height: 45px;
+  width: 70px;
+  border: none;
+  background-color: rgb(197, 184, 111);
+  font-size: larger;
+  color: black;
+  border-radius: 6px;
+}
+
+.main-hook-usestate{
+  background-color: aqua;
+  padding-top: 50px;
+  margin-bottom: 20px;
+}
+
+.useeffect_data{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.useeffect_btn{
+  padding: 9px 16px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(110, 225, 219);
+  background-color: aquamarine;
+  border-radius: 7px;
+  font-size: larger;
+}
+
+.contextapi{
+  margin: 40px 0px;
+}
+
+.compa{
+  background-color: rgb(0, 255, 30);
+  padding: 5px;
+  margin: 8px;
+}
+
+.compb{
+  background-color: aqua;
+  padding: 5px;
+  margin: 8px;
+}
+
+.compc{
+  background-color: pink;
+  padding: 5px;
+  margin: 8px;
+}
+
+.useref_main{
+  margin: 50px 0px;
+}
+
+.ref_form{
+  width: 40%;
+  height: 40px;
+  border-radius: 6px;
+  border-style: none;
+  box-shadow: black 0px 1px 6px -1px;
+}
+
+.usereducer_main, .usememo_main{
+  margin: 50px 0px;
+  background-color: aqua;
+  padding: 60px 0px;
+}
+
+.usecallback_main{
+  margin: 50px 0px;
+}
+
+.loader-spinner{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+@media only screen and (max-width : 650px){
+  .movie{
+    width: 40%;
+  }
+
+  .hook-btn{
+    margin: 10px 20px;
+    min-width: 140px;
+  }
+
+  #siz{
+    width: 33%;
+  }
+
+  .form-data-val{
+    width: 90%;
+  }
+
+  .ref_form{
+    width: 300px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width : 1100px){
+  .movie{
+    width: 17%;
+  }
+
+  .hook-head{
+    padding: 90px 0px;
+  }
+
+  .hook-val{
+    margin-bottom: 40px;
+  }
+
+  .ref_form{
+    width: 30%;
+  }
+}
